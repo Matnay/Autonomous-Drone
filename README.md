@@ -6,7 +6,8 @@ installation of mavros
 
 Install all dependencies
 
-```sudo apt install -y \
+```
+sudo apt install -y \
 	ninja-build \
 	exiftool \
 	python-argparse \
@@ -30,12 +31,14 @@ pip install \
 	numpy \
 	toml \
 	pyquaternion
-```	
+```
+
 Create a new workspace:	
-	
+```	
 mkdir -p ~/catkin_ws/src
 ```
-and run the following commands:```
+and run the following commands:
+```
 cd ~/catkin_ws
 catkin init && wstool init src
 
@@ -57,7 +60,7 @@ make posix_sitl_default gazebo
 
 catkin build
 ```
-```
+
 Open a new terminal and type:
 ```
 sudo gedit ~/.bashrc
