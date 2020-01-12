@@ -6,7 +6,7 @@ installation of mavros
 
 Install all dependencies
 
-sudo apt install -y \
+```sudo apt install -y \
 	ninja-build \
 	exiftool \
 	python-argparse \
@@ -30,12 +30,12 @@ pip install \
 	numpy \
 	toml \
 	pyquaternion
-	
+```	
 Create a new workspace:	
 	
-mkdir -p ~/catkin_ws/src
-
-and run the following commands:
+```mkdir -p ~/catkin_ws/src
+```
+and run the following commands:```
 cd ~/catkin_ws
 catkin init && wstool init src
 
@@ -55,12 +55,13 @@ cd Firmware
 git checkout v1.8.0
 make posix_sitl_default gazebo
 
-catkin build
-
-Open a new terminal and type:
+catkin build```
+Open a new terminal and type:```
 sudo gedit ~/.bashrc
-Add the following lines to the file that opnes:
+```
+Add the following lines to the file that opnes:```
 source ~/catkin_ws/devel/setup.bash
 source ~/catkin_ws/src/Firmware/Tools/setup_gazebo.bash ~/catkin_ws/src/Firmware/ ~/catkin_ws/src/Firmware/build/posix_sitl_default
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/catkin_ws/src/Firmware
 export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/catkin_ws/src/Firmware/Tools/sitl_gazebo
+```
