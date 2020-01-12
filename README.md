@@ -33,7 +33,7 @@ pip install \
 ```	
 Create a new workspace:	
 	
-```mkdir -p ~/catkin_ws/src
+mkdir -p ~/catkin_ws/src
 ```
 and run the following commands:```
 cd ~/catkin_ws
