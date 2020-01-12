@@ -55,8 +55,11 @@ cd Firmware
 git checkout v1.8.0
 make posix_sitl_default gazebo
 
-catkin build```
-Open a new terminal and type:```
+catkin build
+```
+```
+Open a new terminal and type:
+```
 sudo gedit ~/.bashrc
 ```
 Add the following lines to the file that opnes:```
