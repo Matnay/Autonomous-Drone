@@ -65,9 +65,10 @@ Open a new terminal and type:
 ```
 sudo gedit ~/.bashrc
 ```
-Add the following lines to the file that opnes:```
+Add the following lines to the file that opens:
+```
 source ~/catkin_ws/devel/setup.bash
 source ~/catkin_ws/src/Firmware/Tools/setup_gazebo.bash ~/catkin_ws/src/Firmware/ ~/catkin_ws/src/Firmware/build/posix_sitl_default
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/catkin_ws/src/Firmware
-export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/catkin_ws/src/Firmware/Tools/sitl_gazebo
+export ROS_PACKAGE_PATH=ROS_PACKAGE_PATH:~/catkin_ws/src/Firmware
+export ROS_PACKAGE_PATH=ROS_PACKAGE_PATH:~/catkin_ws/src/Firmware/Tools/sitl_gazebo
 ```
