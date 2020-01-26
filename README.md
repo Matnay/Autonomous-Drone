@@ -79,3 +79,5 @@ cd <workspace_name>
 source devel/setup.bash
 rosrun <package_name> <script_name.py>
 ```
+A link to the videos showing final results can be found here:
+https://drive.google.com/drive/u/0/folders/1qhfXiX-CNiFpI8fsTxjDEUSapS3mkc9u
