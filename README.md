@@ -72,3 +72,10 @@ source ~/catkin_ws/src/Firmware/Tools/setup_gazebo.bash ~/catkin_ws/src/Firmware
 export ROS_PACKAGE_PATH=ROS_PACKAGE_PATH:~/catkin_ws/src/Firmware
 export ROS_PACKAGE_PATH=ROS_PACKAGE_PATH:~/catkin_ws/src/Firmware/Tools/sitl_gazebo
 ```
+Create a new workspace and copy the codes into the 'src' directory
+Run the scripts by
+```
+cd <workspace_name>
+source devel/setup.bash
+rosrun <package_name> <script_name.py>
+```
