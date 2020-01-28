@@ -1,6 +1,7 @@
 # Autonomous-Drone
-A detailed repository with step-by-step instructions on implementing an autonomous drone
-
+A detailed repository with step-by-step instructions on implementing an autonomous drone:
+All algorithms can be simulated on the px4 SITL simulator using Gazebo.
+https://github.com/PX4/sitl_gazebo
 STEP 1:
 installation of mavros
 
