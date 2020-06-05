@@ -54,14 +54,13 @@ rosdep install --from-paths src --ignore-src -y
 
 sudo ./src/mavros/mavros/scripts/install_geographiclib_datasets.sh
 sudo apt install ros-kinetic-catkin python-catkin-tools
+catkin build
 
 cd ~/catkin_ws/src
 git clone https://github.com/PX4/Firmware.git
 cd Firmware
 git checkout v1.8.0
 make posix_sitl_default gazebo
-
-catkin build
 ```
 
 Open a new terminal and type:
