@@ -54,7 +54,9 @@ rosdep install --from-paths src --ignore-src -y
 
 sudo ./src/mavros/mavros/scripts/install_geographiclib_datasets.sh
 sudo apt install ros-kinetic-catkin python-catkin-tools
-
+```
+or
+```
 cd ~/catkin_ws/src
 git clone https://github.com/PX4/Firmware.git
 cd Firmware
