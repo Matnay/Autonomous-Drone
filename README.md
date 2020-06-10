@@ -81,5 +81,7 @@ cd <workspace_name>
 source devel/setup.bash
 rosrun <package_name> <script_name.py>
 ```
+Navigator.py - Path planning, SLAM and stereo camera based obstacle avoidance
+
 A link to the videos showing final results can be found here:
 https://drive.google.com/drive/u/0/folders/1qhfXiX-CNiFpI8fsTxjDEUSapS3mkc9u
