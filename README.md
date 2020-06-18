@@ -1,7 +1,7 @@
 # Autonomous-Drone
 A detailed repository with step-by-step instructions on implementing an autonomous drone:
 All algorithms can be simulated on the px4 SITL simulator using Gazebo.
-
+![Image EXAMPLE RESULT](https://github.com/Matnay/Autonomous-Drone/blob/master/Screenshot%20from%202019-06-30%2018-54-35.png)
 https://github.com/PX4/sitl_gazebo
 
 STEP 1:
