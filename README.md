@@ -36,7 +36,7 @@ pip install \
 	pyquaternion
 ```
 
-Create a new workspace:	
+* Create a new workspace:	
 ```	
 mkdir -p ~/catkin_ws/src
 ```
@@ -63,19 +63,19 @@ git checkout v1.8.0
 make posix_sitl_default gazebo
 ```
 
-Open a new terminal and type:
+* Open a new terminal and type:
 ```
 sudo gedit ~/.bashrc
 ```
-Add the following lines to the file that opens:
+* Add the following lines to the file that opens:
 ```
 source ~/catkin_ws/devel/setup.bash
 source ~/catkin_ws/src/Firmware/Tools/setup_gazebo.bash ~/catkin_ws/src/Firmware/ ~/catkin_ws/src/Firmware/build/posix_sitl_default
 export ROS_PACKAGE_PATH=ROS_PACKAGE_PATH:~/catkin_ws/src/Firmware
 export ROS_PACKAGE_PATH=ROS_PACKAGE_PATH:~/catkin_ws/src/Firmware/Tools/sitl_gazebo
 ```
-Create a new workspace and copy the codes into the 'src' directory
-Run the scripts by
+* Create a new workspace and copy the codes into the 'src' directory
+* Run the scripts by
 ```
 cd <workspace_name>
 source devel/setup.bash
