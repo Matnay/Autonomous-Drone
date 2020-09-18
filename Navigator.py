@@ -1,4 +1,4 @@
-#!/usr/bin/env ython 
+#!/usr/bin/env python 
 import rospy
 import time
 from commander import Commander
