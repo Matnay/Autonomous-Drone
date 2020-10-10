@@ -19,7 +19,8 @@ class Commander:
         rospy.init_node("commander_node")
         rate = rospy.Rate(40)
 	
-	#these topics can be remapped to work even on a real drone by publishing to mavros 
+	# these topics can be remapped to work even on a real drone by publishing to mavros 
+	# Implement better planner
         self.position_target_pub = rospy.Publisher('gi/set_pose/position', PoseStamped, queue_size=10)
         self.yaw_target_pub = rospy.Publisher('gi/set_pose/orientation', Float32, queue_size=10)
         self.custom_activity_pub = rospy.Publisher('gi/set_activity/type', String, queue_size=10)
